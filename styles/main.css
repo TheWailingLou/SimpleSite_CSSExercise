@@ -49,3 +49,28 @@ table {
 * {
 	box-sizing: border-box;
 }
+
+header {
+	display: flex;
+	width: 100vw;
+	height: 10vh;
+	border: 1px solid #000;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.nameAndSlogan {
+	display: flex;
+	float: left;
+	border: 1px solid #000;
+}
+
+.navButton {
+	display: inline-flex;
+}
+
+nav {
+	float: right;
+}
