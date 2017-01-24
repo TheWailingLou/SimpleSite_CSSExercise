@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ^^^   CSS Reset      ^^^ */
+/*									        */
+/* vvv   Actual Style   VVV */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+header {
+	color: #C0BAB6;
+	background-color: #333333;
+	display: flex;
+	width: 100vw;
+	height: 12.5vh;
+	justify-content: space-between;
+}
+
+.nameAndSlogan {
+	margin-top: 15px;
+	margin-left: 80px;
+	text-align: left;
+	color: #C0BAB6;
+	display: block;
+}
+
+#brandName {
+	font-size: 30px;
+	display: block;
+	width: 100%;
+}
+
+#brandTagline {
+	font-size: 12px;
+	display: block;
+	width: 100%;
+}
+
+nav {
+	align-self: center;
+	height: 6vh;
+	background-color: #232323;
+	height: 30px
+	display: flex;
+	margin-right: 6vw;
+}
+
+
+.navButton {
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-color: #B5AFAC;
+	color: #B5AFAC;
+	font-size: 11px;
+	width: 70px;
+	display: inline-block;
+	margin: 2.2vh 0
+}
+
+main {
+	display: inline-flex;
+	margin: 4vh 0;
+
+}
+
+.mainSection {
+	margin-right: 12px;
+	height: 26vw;
+	width: 26vw;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #DDD;
+}
+
+aside img {
+	height: 26vw;
+}
+
+
+.bottomArticles {
+	margin: 5vh 0 10vh 5vw;
+	display: flex;
+	width: 80vw
+}
+
+.collumn h2, summary {
+	color: #999;
+	text-align: left;
+}
+
+.collumn h2 {
+	margin-bottom: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+}
+
+.collumn summary {
+	font-weight: 500;
+	line-height: 1.5em;
+	font-size: 12px;
+	width: 28vw;
+	margin-right: 3vw;
+}
+
+.articleImg {
+	padding: 3px;
+	margin-bottom: 1.5vw;
+	margin-right: 10px;
+	border: 1px solid #DDD;
+	width: 10vw;
+	float: left;
+}
+
+.articleLink {
+	color: #FFA013;
+	text-decoration: none;
+	float: right;
+	font-size: 12px;
+	margin-right: 4vw;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: left;
+	background-color: #232323;
+	display: flex;
+	width: 100vw;
+	height: 8vh;
+	align-content: center;
+}
+
+small {
+	color: #8C8C8C;
+	font-size: 12px;
+	margin-top: 3vh;
+	margin-left: 10vw;
+}

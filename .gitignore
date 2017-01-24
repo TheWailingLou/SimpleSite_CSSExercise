@@ -1,2 +1,5 @@
-/Users/louis/Galvanize/unit-1/HW/Simple Site/site/Simple Site/website/.gitignore 
+/Users/louis/Galvanize/unit-1/HW/'Simple Site'/site/Simple Site/website/.gitignore
 .DS_Store
+.firebaserc
+database.rules.json
+firebase.json
