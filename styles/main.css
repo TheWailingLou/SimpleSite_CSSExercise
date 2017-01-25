@@ -51,45 +51,44 @@ table {
 }
 
 body {
-	text-align: center;
+	min-height: 120vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 header {
 	color: #C0BAB6;
 	background-color: #333333;
 	display: flex;
-	width: 100vw;
+	min-width: 100vw;
 	height: 12.5vh;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .nameAndSlogan {
-	margin-top: 15px;
-	margin-left: 80px;
 	text-align: left;
 	color: #C0BAB6;
-	display: block;
+	display: flex;
+	flex-direction: column;
+
 }
 
 #brandName {
 	font-size: 30px;
-	display: block;
-	width: 100%;
 }
 
 #brandTagline {
 	font-size: 12px;
-	display: block;
-	width: 100%;
 }
 
 nav {
-	align-self: center;
 	height: 6vh;
 	background-color: #232323;
-	height: 30px
 	display: flex;
-	margin-right: 6vw;
+	justify-content: space-around;
+	align-items: center;
 }
 
 
@@ -101,14 +100,13 @@ nav {
 	color: #B5AFAC;
 	font-size: 11px;
 	width: 70px;
-	display: inline-block;
-	margin: 2.2vh 0
+	display: flex;
+	justify-content: center;
 }
 
 main {
-	display: inline-flex;
-	margin: 4vh 0;
-
+	display: flex;
+	justify-content: center;
 }
 
 .mainSection {
@@ -125,21 +123,13 @@ aside img {
 
 
 .bottomArticles {
-	margin: 5vh 0 10vh 5vw;
 	display: flex;
-	width: 80vw
+	justify-content: center;
 }
 
 .collumn h2, summary {
 	color: #999;
 	text-align: left;
-}
-
-.collumn h2 {
-	margin-bottom: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
-	display: block;
 }
 
 .collumn summary {
@@ -148,6 +138,13 @@ aside img {
 	font-size: 12px;
 	width: 28vw;
 	margin-right: 3vw;
+}
+
+.collumn h2 {
+	margin: 10px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
 }
 
 .articleImg {
@@ -169,17 +166,17 @@ aside img {
 }
 
 footer {
-	text-align: left;
 	background-color: #232323;
 	display: flex;
 	width: 100vw;
 	height: 8vh;
+	justify-content: flex-start;
 	align-content: center;
 }
 
 small {
 	color: #8C8C8C;
 	font-size: 12px;
-	margin-top: 3vh;
+	align-self: center;
 	margin-left: 10vw;
 }
